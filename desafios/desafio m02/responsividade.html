@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 280px; /* largura minima tipo uma tela de celular antigo*/
+            max-width: 800px; /* largura maxima tipo de um tablet | como fazer uma imagem responsiva? adicione o source da tag picture abaixo e o img no style abaixo tbm*/
+            margin: auto;
+        }
+
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>testando responsividade</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, sapiente amet beatae quos itaque quia tenetur architecto iusto rem suscipit necessitatibus fuga consectetur accusamus dignissimos excepturi quae, ipsa sit incidunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis soluta consectetur quibusdam quidem illo sit voluptatem tempore enim maxime magnam illum vero autem, nemo ratione rerum, temporibus accusantium officia a? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique asperiores, harum quaerat, tempora veritatis corrupti non, delectus accusamus iste quam exercitationem voluptatum libero reiciendis maiores eligendi corporis reprehenderit excepturi nobis.</p>
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="Irina Blok">
+        </picture>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, sapiente amet beatae quos itaque quia tenetur architecto iusto rem suscipit necessitatibus fuga consectetur accusamus dignissimos excepturi quae, ipsa sit incidunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis soluta consectetur quibusdam quidem illo sit voluptatem tempore enim maxime magnam illum vero autem, nemo ratione rerum, temporibus accusantium officia a? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique asperiores, harum quaerat, tempora veritatis corrupti non, delectus accusamus iste quam exercitationem voluptatum libero reiciendis maiores eligendi corporis reprehenderit excepturi nobis.</p>
+    </main>
+</body>
+</html>

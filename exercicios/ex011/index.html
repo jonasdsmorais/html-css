@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Mídias que se adaptam sozinhas</h1>
+    <p>Tente abrir esse site em outra plataforma e veja se sua imagem se adapta ao tamanho de seu navegador.</p>
+    <picture>
+        <source media="(max-width: 500px)" srcset="imagens/cachorrp.jpg" type="image/jpg">
+        <source media="(max-width: 700px)" srcset="imagens/cachorrm.jpg" type="image/jpg">
+        <img src="imagens/cachorrg.jpg" alt="foto grande flexivel">
+    </picture>
+    <h1>Implementando Áudio no website</h1>
+    <audio preload="metadata" controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mp3">
+        <p>Infelizmente seu navegador é incompatível com reprodução de áudio. Para baixar, <a href="midia/guanacast-33.mp3" target="_blank" ref="external">clique aqui para baixar o MP3.</a></p>
+    </audio>
+</body>
+</html>

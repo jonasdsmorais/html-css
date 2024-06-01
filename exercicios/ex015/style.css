@@ -1,0 +1,14 @@
+h1 {
+    color: darkblue;
+}
+h2 {
+    color: red;
+}
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+p {
+    color: white;
+}
