@@ -1,0 +1,26 @@
+body {
+    font: italic bolder 3em 'Arial';
+    background-color: black;
+    
+}
+
+p {
+    padding-top: 300px;
+    color: white;
+    text-align: center;
+}
+
+button {
+    font-size: 0.5em;
+    margin-left: 426.5px;
+}
+
+header {
+    margin: 0px;
+}
+
+header img {
+    margin: auto;
+    padding-left: 400px;
+    width: 100px;
+}
